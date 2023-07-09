@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ile çalışmak</title>
+    <style>
+        p{
+            font-size: 20px;
+             font-weight: bold;
+            text-align: center; 
+            margin: 10px;
+            padding: 10px ;  
+            border: 1px solid rgb(32, 139, 188);
+            border-radius: 10px;
+            background-color: color(srgb red rgba(73, 87, 4, 0.06) rgb(80, 66, 66));  
+            color: (0,0,0);
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h2 style="border-radius: 10px;background-color: rgb(138, 9, 37);
+    text-align:center;padding:20px;">JavaScript İle çalışmak</h2>
+    <button onclick="document.getElementById('demo1').innerHTML = 
+    'Aşağıda tarih bilgisi var';"
+    button onclick="document.getElementById('demo3').innerHTML =
+    'Sizi SEviyorum'
+    alert('hem de karşılıksız');"type="button">Tarih Ve Zamanı Göster</button>
+    <p id="demo1">tarih ve zaman</p>
+    <p id="demo2">data</p>
+    <p id="demo3">data</p>
+
+    <script>
+        document.getElementById("demo2").innerHTML = Date()
+
+    </script>
+</body>
+</html>
